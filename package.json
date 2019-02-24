@@ -1,0 +1,23 @@
+{
+  "name": "hackgraph",
+  "version": "1.0.0",
+  "description": "One GraphQL for all APIs a hacker could want",
+  "main": "index.js",
+  "author": "Chip Wasson <chip@wasson.io>",
+  "license": "BSD",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^11.9.5",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
